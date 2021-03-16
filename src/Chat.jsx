@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import 'shards-ui/dist/css/shards.min.css'
 import React, { useState } from 'react'
 import { ApolloClient, InMemoryCache, ApolloProvider, gql, useSubscription, useMutation } from '@apollo/client';
 import { Container, Row, Col, FormInput, Button } from "shards-react";
